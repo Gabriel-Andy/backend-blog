@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "affiliates",
+  "info": {
+    "name": "affiliate",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "TypeOfProducts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.allproducts"
+    }
+  }
+}
