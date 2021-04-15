@@ -11,14 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
     "subtitleProject": {
       "type": "component",
       "repeatable": true,
-      "component": "subtitle.subtitle-project"
+      "component": "subtitle.title-sub-title"
     },
     "video": {
       "type": "component",
