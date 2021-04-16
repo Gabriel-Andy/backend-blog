@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_subtitle_title_sub_titles",
+  "info": {
+    "name": "TitleSubTitle",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitleProject": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subtitle.subtitle-project"
+    }
+  }
+}
