@@ -58,6 +58,14 @@
     "nextButton": {
       "type": "string",
       "required": true
+    },
+    "prevBtnNumber": {
+      "type": "integer",
+      "required": true
+    },
+    "nextBtnNumber": {
+      "type": "integer",
+      "required": true
     }
   }
 }

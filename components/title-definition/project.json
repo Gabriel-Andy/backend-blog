@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_title_definition_projects",
+  "info": {
+    "name": "project",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
