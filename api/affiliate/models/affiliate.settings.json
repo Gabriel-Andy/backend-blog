@@ -11,10 +11,30 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "TypeOfProducts": {
-      "type": "component",
-      "repeatable": true,
-      "component": "description.allproducts"
+    "typeOfProduct": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "typeOfProduct",
+      "required": true
+    },
+    "productImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
