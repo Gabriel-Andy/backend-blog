@@ -41,6 +41,15 @@
       "repeatable": true,
       "component": "product.single-product",
       "required": true
+    },
+    "productName": {
+      "type": "string",
+      "required": true
+    },
+    "slugProduct": {
+      "type": "uid",
+      "targetField": "productName",
+      "required": true
     }
   }
 }
