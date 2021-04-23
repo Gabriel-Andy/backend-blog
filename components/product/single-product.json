@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_product_single_products",
+  "info": {
+    "name": "singleProduct",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "typeOfProduct": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

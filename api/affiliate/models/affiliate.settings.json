@@ -35,6 +35,12 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.single-product",
+      "required": true
     }
   }
 }
