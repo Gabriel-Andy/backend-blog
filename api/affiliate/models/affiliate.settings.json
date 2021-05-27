@@ -36,12 +36,6 @@
       "default": false,
       "required": true
     },
-    "product": {
-      "type": "component",
-      "repeatable": true,
-      "component": "product.single-product",
-      "required": true
-    },
     "productName": {
       "type": "string",
       "required": true
@@ -50,6 +44,11 @@
       "type": "uid",
       "targetField": "productName",
       "required": true
+    },
+    "product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-product.affiliate-product"
     }
   }
 }
