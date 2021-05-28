@@ -49,6 +49,12 @@
       "type": "component",
       "repeatable": true,
       "component": "single-product.affiliate-product"
+    },
+    "categoryProduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category-product.product",
+      "required": true
     }
   }
 }

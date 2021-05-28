@@ -18,10 +18,6 @@
     "affiliateDescription": {
       "type": "string",
       "required": true
-    },
-    "typeOfProduct": {
-      "type": "string",
-      "required": false
     }
   }
 }
