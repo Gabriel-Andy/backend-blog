@@ -35,7 +35,7 @@
     "introDesc": {
       "type": "component",
       "repeatable": true,
-      "component": "description.introduction"
+      "component": "subtitle.subtitle-project"
     },
     "bodyDesc": {
       "type": "component",
@@ -45,12 +45,12 @@
     "conclusionDesc": {
       "type": "component",
       "repeatable": true,
-      "component": "description.introduction"
+      "component": "subtitle.subtitle-project"
     },
     "quickTips": {
       "type": "component",
       "repeatable": true,
-      "component": "description.introduction"
+      "component": "subtitle.subtitle-project"
     },
     "introductionDescription": {
       "type": "text",

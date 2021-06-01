@@ -38,6 +38,17 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description-video.video",
+      "required": true
+    },
+    "table_of_contents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title-definition.project"
     }
   }
 }

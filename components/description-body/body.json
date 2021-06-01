@@ -24,7 +24,7 @@
     "textImage": {
       "type": "component",
       "repeatable": true,
-      "component": "description.introduction"
+      "component": "subtitle.subtitle-project"
     }
   }
 }

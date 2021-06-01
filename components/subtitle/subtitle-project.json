@@ -7,13 +7,20 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
+    "desc": {
+      "type": "text",
       "required": true
     },
-    "number": {
-      "type": "integer",
-      "required": true
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

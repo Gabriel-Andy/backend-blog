@@ -14,10 +14,6 @@
     "affiliateLink": {
       "type": "string",
       "required": true
-    },
-    "affiliateDescription": {
-      "type": "string",
-      "required": true
     }
   }
 }
