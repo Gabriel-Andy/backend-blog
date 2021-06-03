@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "titlesection": {
       "type": "string",
       "required": true
     },

@@ -45,10 +45,10 @@
       "component": "description-video.video",
       "required": true
     },
-    "table_of_contents": {
+    "table_of_content": {
       "type": "component",
       "repeatable": true,
-      "component": "title-definition.project"
+      "component": "subtitle.title-sub-title"
     }
   }
 }

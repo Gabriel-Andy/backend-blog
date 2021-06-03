@@ -10,10 +10,6 @@
     "title": {
       "type": "string",
       "required": true
-    },
-    "number": {
-      "type": "integer",
-      "required": true
     }
   }
 }
