@@ -59,6 +59,19 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "min": {
+      "type": "string",
+      "required": true
+    },
+    "src": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "component",
+      "repeatable": true,
+      "component": "descriptionbody.tutorialbody"
     }
   }
 }

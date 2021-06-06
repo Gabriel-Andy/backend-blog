@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_descriptionbody_tutorialbodies",
+  "info": {
+    "name": "tutorialbody",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-links.tutorial-intro"
+    },
+    "code": {
+      "type": "text"
+    },
+    "src": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
