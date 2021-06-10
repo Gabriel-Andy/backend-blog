@@ -86,6 +86,21 @@
     "recap": {
       "type": "string",
       "required": true
+    },
+    "conclusion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-links.tutorial-intro"
+    },
+    "category1": {
+      "type": "string",
+      "required": false
+    },
+    "category2": {
+      "type": "string"
+    },
+    "category3": {
+      "type": "string"
     }
   }
 }
