@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "tutorials",
   "info": {
-    "name": "tutorials",
+    "name": "tutorial",
     "description": ""
   },
   "options": {
